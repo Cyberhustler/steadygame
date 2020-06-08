@@ -2,8 +2,8 @@
 var c = document.createElement("canvas");
 var ctx = c.getContext("2d");
  
-c.width = window.innerWidth;
-c.height = window.innerHeight;
+c.width = 800;
+c.height = 300;
 document.body.appendChild(c);
 
 var perm = [];
